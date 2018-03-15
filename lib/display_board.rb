@@ -2,4 +2,4 @@
 
 def display_board
   stub = "   "
-  puts "#{stub}|#{stub}"
+  puts "#{stub}|#{stub}|#{stub}"
