@@ -3,4 +3,8 @@
 def display_board
   stub = "   "
   puts "#{stub}|#{stub}|#{stub}"
-  
+  11.times {prints "-"}
+  puts "#{stub}|#{stub}|#{stub}"
+  11.times {prints "-"}
+  puts "#{stub}|#{stub}|#{stub}"
+end
